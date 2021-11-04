@@ -1,6 +1,12 @@
 import React from 'react'
 
-const RepositoriesPage = () => <h1>RepositoriesPage</h1>;
+import { Container, Sidebar, Main } from './styles';
 
+const RepositoriesPage = () => (
+  <Container>
+    <Sidebar>Sidebar</Sidebar>
+    <Main>Main</Main>
+  </Container>
+);
 
 export default RepositoriesPage;
